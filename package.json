@@ -1,0 +1,21 @@
+{
+  "name": "mega",
+  "displayName": "'Mega Color Theme'",
+  "description": "color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mega",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mega-color-theme.json"
+      }
+    ]
+  }
+}

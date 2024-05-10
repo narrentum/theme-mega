@@ -3,6 +3,7 @@
   "displayName": "'Mega Color Theme'",
   "description": "color theme",
   "version": "0.0.1",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -14,7 +15,8 @@
       {
         "label": "mega",
         "uiTheme": "vs-dark",
-        "path": "./themes/mega-color-theme.json"
+        "path": "./themes/mega-color-theme.json",
+		"git": "https://github.com/narrentum/theme-mega.git"
       }
     ]
   }

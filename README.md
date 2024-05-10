@@ -1,16 +1,64 @@
 # mega README
 
-## Working with Markdown
+To fully match the theme, add the following settings to the settings file:
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+	"editor.semanticHighlighting.enabled"		: true,
+	"editor.semanticTokenColorCustomizations"   : 
+	{
+		"enabled": true,
+		"rules": 
+		{
+			//"keyword"							: "#ac84d2",
+			//"plainKeyword" 					: "#ac84d2",
+			//"controlKeyword" 					: "#ff807c",
+			//"typeKeyword" 					: "#abde7b",
 
-## For more information
+			"delegate" 							: "#94b6f2",
+			"constant"							: "#ffd7a5",
+			//"method" 							: "#DCDCAA",
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+			"class" 							: "#ccd766",
+			"interface" 						: "#ccd766",
+			"struct" 							: "#ccd766",
+			"namespace"               			: "#ccd766",
+			"enum"                    			: "#ccd766",
+			//"number"                  		: "#ffb77d",
+			//"string"                  		: "#ffb77d",
+			"enumMember" 						: "#e9e9e9",
+			//"field" 							: "#e9e9e9",
+			"property" 							: "#e9e9e9",
+			"variable" 							: "#bababa",
+			"parameter" 						:
+			{		
+				"foreground" 					: "#b2d5e4",
+				"fontStyle" 					: "italic"
+			}, 		
+
+			"comment" 							: "#4b6e4c",
+			"xmlDocCommentComment" 				: "#4b6e4c",
+			"xmlDocCommentName" 				: "#4b6e4c",
+			"xmlDocCommentText" 				: "#4b6e4c",
+			"xmlDocCommentDelimiter" 			: "#4b6e4c", 
+		},
+	},
+
+	"workbench.colorCustomizations": 
+	{
+		"editorBracketHighlight.foreground1"	: "#bababa",
+		"editorBracketHighlight.foreground2"	: "#91a7ff",
+		"editorBracketHighlight.foreground3"	: "#e4de60",
+		"editorBracketHighlight.foreground4"	: "#e7a33e",
+		"editorBracketHighlight.foreground5"	: "#db6165",
+		"editorBracketHighlight.foreground6"	: "#ff161d",
+
+		"sideBar.background"					: "#262626",
+		"editor.background"						: "#262626",
+		"editorGroupHeader.tabsBackground"		: "#262626",
+        "tab.inactiveBackground"				: "#262626",
+        "tab.activeBackground"					: "#464265",
+
+	}
 
 **Enjoy!**

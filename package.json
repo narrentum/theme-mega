@@ -3,7 +3,7 @@
   "displayName": "'Mega Color Theme'",
   "description": "color theme",
   "version": "0.0.1",
-  "publisher": "mega",
+  "publisher": "ischenkomv",
   "license": "MIT",
   "engines": {
     "vscode": "^1.89.0"
